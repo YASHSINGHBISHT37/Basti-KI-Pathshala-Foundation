@@ -1,8 +1,10 @@
+gsap.registerPlugin(ScrollTrigger);
+
 let lenis;
 
 function lenisScroll() {
     lenis = new Lenis({
-        autoRaf: true,
+        autoRaf: false,
     });
 
     let backToUp = document.querySelector('.back-to-up');
@@ -69,7 +71,7 @@ function cursor() {
         gsap.to(cursor, {
             x: e.x,
             y: e.y,
-            duration: 1,
+            duration: .6,
             ease: 'back.out'
         })
     })
@@ -152,12 +154,10 @@ function pageScroll() {
 
 
 
-
-
-blocks();
 cursor();
+lenisScroll();
+blocks();
 numCountAni();
 backToUp();
 pageScroll();
 loader();
-lenisScroll();
