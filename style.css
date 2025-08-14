@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'reg';
-    src: url("fonts/PPMori-Regular.woff2");
+    font-family: reg;
+    src: url("/fonts/PPMori-Regular.woff2");
 }
 
 @font-face {
-    font-family: 'lig';
+    font-family: lig;
     src: url("fonts/PPMori-Extralight.woff2");
 }
 
@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
-    font-family: 'reg';
+    font-family: reg;
 }
 
 html,
