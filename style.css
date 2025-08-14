@@ -1,12 +1,13 @@
 @font-face {
-    font-family: reg;
-    src: url("fonts/PPMori-Regular.woff2");
+    font-family: 'reg';
+    src: url("../fonts/PPMori-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: lig;
-    src: url("fonts/PPMori-Extralight.woff2");
+    font-family: 'lig';
+    src: url("../fonts/PPMori-Extralight.woff2") format("woff2");
 }
+
 
 * {
     margin: 0;
